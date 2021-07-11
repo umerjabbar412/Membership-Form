@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Membership Form</title>
+        <!--Used Internal CSS-->
+        <style>
+            #label1
+            {
+                color: rgb(133, 133, 133);
+                margin-left: 25%;
+            }
+            #address1
+            {
+                margin-left: 25%;
+                width: 42%;
+                padding: 0.5%;
+            }
+            #h1
+            {
+                text-align: center;
+            }
+            #placeholder1
+            {
+                margin-left: 25%;
+                width: 20%;
+                padding: 0.5%;
+            }
+            #city
+            {
+                margin-left: 25%;
+                width: 200px;
+                padding: 0.5%;
+            }
+            #region
+            {
+                margin-left: 1px;
+                width: 305px;
+                padding: 0.5%;
+            }
+            #country
+            {
+                width: 325px;
+                padding-top: 0.5%;
+                padding-bottom: 0.5%;
+            }
+            #h4
+            {
+                margin-left: 25%;
+            }
+            #radio
+            {
+                margin-left: 25%;
+            }
+            #button
+            {
+                margin-left: 40%;
+                width: 8%;
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <!--Main Heading-->
+        <h1 id="h1">Association Membership Form</h1>
+        <h3 id="h1">Member Information</h3>
+        <form>
+            <!--Member's Name-->
+            <label id="label1">Member's Name</label>
+            <br><br>
+            <input type="text" placeholder="First Name" id="placeholder1">
+            <input type="text" placeholder="Last Name" style="margin-left: 5px;" id="placeholder1">
+            <br><br>
+            <!--Address-->
+            <label id="label1">Address</label>
+            <br><br>
+            <input type="text" placeholder="Street Address" id="address1">
+            <br><br>
+            <input type="text" placeholder="Street Address Line 2" id="address1">
+            <br><br>
+            <!--City-->
+            <input type="text" placeholder="City" id="city">
+            <!--Region-->
+            <input type="text" placeholder="Region" id="region">
+            <br><br>
+            <input type="tel" placeholder="Postal/ Zip Code" id="city">
+            <!--Country Detailts-->
+            <select id="country">
+                <option style="color: rgb(133, 133, 133);">Select Country</option>
+                <option>America</option>
+                <option>Bangladesh</option>
+                <option>Canada</option>
+                <option>Dalta</option>
+                <option>England</option>
+                <option>Afarica</option>
+                <option>Australlia</option>
+                <option>Germany</option>
+                <option>Pakistan</option>
+                <option>India</option>
+                <option>Nepal</option>
+            </select>
+            <br><br>
+            <!--Phone Number-->
+            <label id="label1">Phone</label>
+            <br><br>
+            <input type="tel" placeholder="03*********" id="address1">
+            <br><br>
+            <!--E-mail-->
+            <label id="label1">E-mail</label>
+            <br><br>
+            <input type="email" placeholder="Enter Your E-mail" required id="address1">
+            <br>
+            <!--Selection For Levels-->
+            <h4 id="h4">Select Your Membership Level</h4>
+            <label id="label1">Life Member</label>
+            <br><br>
+            <input type="radio" id="radio" name="ind">Individual
+            <br><br>
+            <input type="radio" id="radio" name="ind">Family
+            <br><br>
+            <label id="label1">Annual Member</label>
+            <br><br>
+            <input type="radio" id="radio" name="ind">Individual
+            <br><br>
+            <input type="radio" id="radio" name="ind">Family
+            <br><br>
+            <input type="radio" id="radio" name="ind">Student
+            <br><br>
+            <input type="radio" id="radio" name="ind">Educator
+            <br><br>
+            <!--Submit Button-->
+            <input type="submit" id="button">
+        </form>
+    </body>
+</html>
